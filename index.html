@@ -39,12 +39,13 @@
         <div id="contextMenu" class="context-menu" 
             style="display:none">
             <ul>
-                <li onclick="location.reload();">Reload</li>
-                <li onclick="history.back()">Back</li>
-                <li onclick="history.forward()">Forward</li>
-                <li onclick="copy()">Copy</li>
-                <li><a href="https://www.instagram.com" target="_blank">Go to Instagram</a></li>
-                <li><a href="https://www.facebook.com" target="_blank">Go to Facebook</a></li>
+                <li onclick="location.reload();"><i class="fas fa-redo-alt"></i>   Reload</li>
+                <li onclick="history.back()"><i class="fas fa-arrow-left"></i>   Back</li>
+                <li onclick="history.forward()"><i class="fas fa-arrow-right"></i>Forward</li>
+                <li onclick="copy()" aria-disabled="true"><i class="fas fa-copy"></i>      Copy</li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i>   Instagram</a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i>   Facebook</a></li>
+				<li><a href="#"><i class="fas fa-info-circle"></i>      About</a></li>
             </ul>
         </div>
     </body>
